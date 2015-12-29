@@ -10,7 +10,7 @@ public class CountRestController {
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/count")
-    public CountPojo greeting() {
+    public CountPojo getAndIncrementCount() {
         return new CountPojo(counter.incrementAndGet());
     }
 }
