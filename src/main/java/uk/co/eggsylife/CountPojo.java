@@ -1,4 +1,4 @@
-package hello;
+package uk.co.eggsylife;
 
 public class CountPojo {
 
